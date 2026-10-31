@@ -1,0 +1,109 @@
+{
+  "format": 1,
+  "title": {
+    "en": "TeamAI & LiteLLM Ecosystem",
+    "zh": "TeamAI 与 LiteLLM 扩展中心"
+  },
+  "description": {
+    "en": "Community plugin index for DeepSeek Harness: enterprise skills synchronization and LiteLLM gateway integration.",
+    "zh": "DeepSeek Harness 生产力插件源：团队技能同步与 LiteLLM 算力网关集成。"
+  },
+  "metadata": {
+    "categories": {
+      "productivity": {
+        "title": {
+          "en": "Productivity",
+          "zh": "生产力"
+        }
+      },
+      "infrastructure": {
+        "title": {
+          "en": "Infrastructure",
+          "zh": "基础设施"
+        }
+      }
+    },
+    "labels": {
+      "featured": {
+        "title": {
+          "en": "Featured",
+          "zh": "精选推荐"
+        }
+      }
+    }
+  },
+  "plugins": [
+    {
+      "name": "dsh-teamai-panel",
+      "title": {
+        "en": "TeamAI Hub",
+        "zh": "TeamAI 资源中心"
+      },
+      "description": {
+        "en": "DeepSeek Harness sidebar panel for TeamAI skills, MCP, and prompts.",
+        "zh": "DeepSeek Harness 侧边栏面板，用于团队技能、MCP 和提示词管理与同步。"
+      },
+      "author": "backtomyfuture",
+      "homepage": "https://github.com/backtomyfuture/dsh-teamai-panel",
+      "repository": {
+        "url": "https://github.com/backtomyfuture/dsh-teamai-panel"
+      },
+      "metadata": {
+        "category": "productivity",
+        "labels": [
+          "featured"
+        ]
+      },
+      "versions": [
+        {
+          "version": "0.3.2",
+          "publishTimestamp": 1761912000,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/backtomyfuture/dsh-teamai-panel",
+            "commit": "d5004618e404b9041ae91703901b092fb13809df"
+          },
+          "engines": {
+            "dsh": ">=0.2.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "dsh-resource-center",
+      "title": {
+        "en": "LiteLLM Gateway Hub",
+        "zh": "LiteLLM 资源中心"
+      },
+      "description": {
+        "en": "DeepSeek Harness sidebar for LiteLLM models, MCP servers, skills, and spend tracking.",
+        "zh": "DeepSeek Harness 侧边栏面板：一键接入企业 LiteLLM 虚拟钥匙、模型注入、MCP 转发与花费统计。"
+      },
+      "author": "backtomyfuture",
+      "homepage": "https://github.com/backtomyfuture/dsh-resource-center",
+      "repository": {
+        "url": "https://github.com/backtomyfuture/dsh-resource-center"
+      },
+      "metadata": {
+        "category": "infrastructure",
+        "labels": [
+          "featured"
+        ]
+      },
+      "versions": [
+        {
+          "version": "0.1.0",
+          "publishTimestamp": 1761912000,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/backtomyfuture/dsh-resource-center",
+            "commit": "d1b0702444b02d9921bc699bcf8c409fb58d2024"
+          },
+          "engines": {
+            "dsh": ">=0.2.0"
+          }
+        }
+      ]
+    }
+  ]
+}
