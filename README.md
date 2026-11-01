@@ -30,19 +30,19 @@ https://raw.githubusercontent.com/backtomyfuture/dsh-market-index/main/market-in
 #### 1. 安装 TeamAI 插件 (`dsh-teamai-panel`)
 ```sh
 # 桌面客户端 (Desktop profile)
-dsh plugin --profile desktop add git+https://github.com/backtomyfuture/dsh-teamai-panel.git#v0.3.2
+dsh plugin --profile desktop add dsh-teamai-panel
 
 # 浏览器 Web 客户端 (Web profile)
-dsh plugin --profile web add git+https://github.com/backtomyfuture/dsh-teamai-panel.git#v0.3.2
+dsh plugin --profile web add dsh-teamai-panel
 ```
 
 #### 2. 安装 LiteLLM 网关插件 (`dsh-resource-center`)
 ```sh
 # 桌面客户端 (Desktop profile)
-dsh plugin --profile desktop add git+https://github.com/backtomyfuture/dsh-resource-center.git#v0.1.0
+dsh plugin --profile desktop add dsh-resource-center
 
 # 浏览器 Web 客户端 (Web profile)
-dsh plugin --profile web add git+https://github.com/backtomyfuture/dsh-resource-center.git#v0.1.0
+dsh plugin --profile web add dsh-resource-center
 ```
 
 安装完成后，完全退出 DeepSeek Harness 并重新启动，侧边栏即会出现对应面板。

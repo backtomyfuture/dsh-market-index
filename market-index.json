@@ -59,9 +59,7 @@
           "version": "0.3.2",
           "publishTimestamp": 1761912000,
           "source": {
-            "type": "git",
-            "url": "https://github.com/backtomyfuture/dsh-teamai-panel",
-            "commit": "49f88964c16899a4abf076899def0dbdff10ae7a"
+            "type": "npm"
           },
           "engines": {
             "dsh": ">=0.2.0"
@@ -95,9 +93,7 @@
           "version": "0.1.0",
           "publishTimestamp": 1761912000,
           "source": {
-            "type": "git",
-            "url": "https://github.com/backtomyfuture/dsh-resource-center",
-            "commit": "6806af52933cf851f797f696a8a921b751ada4dc"
+            "type": "npm"
           },
           "engines": {
             "dsh": ">=0.2.0"
