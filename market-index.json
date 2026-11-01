@@ -61,7 +61,7 @@
           "source": {
             "type": "git",
             "url": "https://github.com/backtomyfuture/dsh-teamai-panel",
-            "commit": "d5004618e404b9041ae91703901b092fb13809df"
+            "commit": "88643c826e0bff82a81cb95d0297496e4b4764bd"
           },
           "engines": {
             "dsh": ">=0.2.0"
