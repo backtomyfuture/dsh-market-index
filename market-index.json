@@ -61,7 +61,7 @@
           "source": {
             "type": "git",
             "url": "https://github.com/backtomyfuture/dsh-teamai-panel",
-            "commit": "88643c826e0bff82a81cb95d0297496e4b4764bd"
+            "commit": "49f88964c16899a4abf076899def0dbdff10ae7a"
           },
           "engines": {
             "dsh": ">=0.2.0"
@@ -97,7 +97,7 @@
           "source": {
             "type": "git",
             "url": "https://github.com/backtomyfuture/dsh-resource-center",
-            "commit": "d1b0702444b02d9921bc699bcf8c409fb58d2024"
+            "commit": "6806af52933cf851f797f696a8a921b751ada4dc"
           },
           "engines": {
             "dsh": ">=0.2.0"
